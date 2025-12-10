@@ -27,7 +27,7 @@ npm install gif-library
 ### **CDN**
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/gif-library@1.0.1/dist/gifLibrary.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gif-library@1.0.3/dist/gifLibrary.umd.js"></script>
 ```
 
 ---
