@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gif Library Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/gif-library@1.0.1/dist/gifLibrary.umd.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <img src="./assets/imagegif.gif" id="gifImage"
+            alt="Animated illustration of two paper boats floating on waves with a sunset.">
+    </div>
+
+    <script>
+        GifLibrary('#gifImage', './assets/static-image.png', {
+            gifAlt: "Static illustration of two paper boats on waves with a sunset.",
+            stillAlt: "Animated illustration of two paper boats floating on waves with a sunset"
+        });
+    </script>
+</body>
+
+</html>
